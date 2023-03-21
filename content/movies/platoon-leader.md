@@ -2,5 +2,7 @@
 title: "Platoon Leader"
 date: 2023-03-21T21:19:17Z
 draft: false
+episode: 14
+rating.total: 11
 ---
 

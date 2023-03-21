@@ -1,6 +1,8 @@
 ---
-title: "Faceoff"
-date: 2023-03-21T21:19:19Z
+title: "Face/Off"
+date: 2023-03-21T21:19:17Z
 draft: false
+episode: 35
+rating.total: undefined
 ---
 

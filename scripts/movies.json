@@ -1,6 +1,6 @@
 [
     {
-      "Hakkelademands leksikon Afsnit nr.": 1,
+      "AfsnitNr": 1,
       "Filmtitel": "Hercules i New York",
       "Fed skurk": 1,
       "Bar hud/Store muskler": 9,
@@ -10,7 +10,7 @@
       "Total": 15
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 2,
+      "AfsnitNr": 2,
       "Filmtitel": "Assassins",
       "Fed skurk": 8,
       "Bar hud/Store muskler": 1,
@@ -20,7 +20,7 @@
       "Total": 27
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 3,
+      "AfsnitNr": 3,
       "Filmtitel": "Commando",
       "Fed skurk": 5,
       "Bar hud/Store muskler": 9,
@@ -30,7 +30,7 @@
       "Total": 43
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 4,
+      "AfsnitNr": 4,
       "Filmtitel": "Cyborg",
       "Fed skurk": 4,
       "Bar hud/Store muskler": 6,
@@ -40,7 +40,7 @@
       "Total": 47
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 5,
+      "AfsnitNr": 5,
       "Filmtitel": "Kapring på åbent hav",
       "Fed skurk": 4,
       "Bar hud/Store muskler": 5,
@@ -50,7 +50,7 @@
       "Total": 21
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 6,
+      "AfsnitNr": 6,
       "Filmtitel": "Demolition man",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 7,
@@ -60,7 +60,7 @@
       "Total": 40
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 7,
+      "AfsnitNr": 7,
       "Filmtitel": "True Lies",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 5,
@@ -70,7 +70,7 @@
       "Total": 37
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 8,
+      "AfsnitNr": 8,
       "Filmtitel": "Road House",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 8,
@@ -80,7 +80,7 @@
       "Total": 30
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 9,
+      "AfsnitNr": 9,
       "Filmtitel": "Cobra",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 2,
@@ -90,7 +90,7 @@
       "Total": 34
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 10,
+      "AfsnitNr": 10,
       "Filmtitel": "Sudden Death",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 1,
@@ -100,7 +100,7 @@
       "Total": 20
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 11,
+      "AfsnitNr": 11,
       "Filmtitel": "Barb Wire",
       "Fed skurk": 2,
       "Bar hud/Store muskler": 10,
@@ -110,7 +110,7 @@
       "Total": 41
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 12,
+      "AfsnitNr": 12,
       "Filmtitel": "Con Air",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 7,
@@ -120,7 +120,7 @@
       "Total": 38
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 13,
+      "AfsnitNr": 13,
       "Filmtitel": "Showdown in Little Tokyo",
       "Fed skurk": 8,
       "Bar hud/Store muskler": 9,
@@ -130,7 +130,7 @@
       "Total": 39
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 14,
+      "AfsnitNr": 14,
       "Filmtitel": "Platoon Leader",
       "Fed skurk": 1,
       "Bar hud/Store muskler": 1,
@@ -140,7 +140,7 @@
       "Total": 11
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 15,
+      "AfsnitNr": 15,
       "Filmtitel": "Predator",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 10,
@@ -150,7 +150,7 @@
       "Total": 49
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 16,
+      "AfsnitNr": 16,
       "Filmtitel": "Jingle all the way",
       "Fed skurk": 4,
       "Bar hud/Store muskler": 1,
@@ -161,7 +161,7 @@
       "Total": 18
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 17,
+      "AfsnitNr": 17,
       "Filmtitel": "Bloodsport",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 10,
@@ -171,7 +171,7 @@
       "Total": 36
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 18,
+      "AfsnitNr": 18,
       "Filmtitel": "Hard Ticket to Hawaii",
       "Fed skurk": 5,
       "Bar hud/Store muskler": 10,
@@ -181,7 +181,7 @@
       "Total": 31
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 19,
+      "AfsnitNr": 19,
       "Filmtitel": "Stone Cold",
       "Fed skurk": 8,
       "Bar hud/Store muskler": 7,
@@ -191,7 +191,7 @@
       "Total": 30
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 20,
+      "AfsnitNr": 20,
       "Filmtitel": "Rocky IV",
       "Fed skurk": 8,
       "Store muskler": 10,
@@ -200,7 +200,7 @@
       "Total": 25
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 21,
+      "AfsnitNr": 21,
       "Filmtitel": "Nico / Above the Law",
       "Fed skurk": 2,
       "Vilde våben": 4,
@@ -208,7 +208,7 @@
       "Total": 10
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 22,
+      "AfsnitNr": 22,
       "Filmtitel": "Delta Force",
       "Fed skurk": 5,
       "Vilde våben": 10,
@@ -216,7 +216,7 @@
       "Total": 17
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 23,
+      "AfsnitNr": 23,
       "Filmtitel": "Action Jackson",
       "Fed skurk": 4,
       "Store muskler": 6,
@@ -226,7 +226,7 @@
       "Total": 28
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 24,
+      "AfsnitNr": 24,
       "Filmtitel": "Red Heat",
       "Fed skurk": 5,
       "Store muskler": 7,
@@ -236,7 +236,7 @@
       "Total": 27
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 25,
+      "AfsnitNr": 25,
       "Filmtitel": "Blade",
       "Fed skurk": 8,
       "Store muskler": 6,
@@ -246,7 +246,7 @@
       "Total": 34
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 26,
+      "AfsnitNr": 26,
       "Filmtitel": "Timecop",
       "Fed skurk": 3,
       "Store muskler": 7,
@@ -256,7 +256,7 @@
       "Total": 45
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 27,
+      "AfsnitNr": 27,
       "Filmtitel": "Die Hard",
       "Fed skurk": 10,
       "Store muskler": 6,
@@ -267,7 +267,7 @@
       "Total": 41
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 28,
+      "AfsnitNr": 28,
       "Filmtitel": "Tango and Cash",
       "Fed skurk": 4,
       "Store muskler": 8,
@@ -277,7 +277,7 @@
       "Total": 32
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 29,
+      "AfsnitNr": 29,
       "Filmtitel": "Top Dog",
       "Fed skurk": 1,
       "Store muskler": 1,
@@ -286,7 +286,7 @@
       "Total": 8
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 30,
+      "AfsnitNr": 30,
       "Filmtitel": "The Matrix",
       "Fed skurk": 10,
       "Store muskler": 3,
@@ -296,7 +296,7 @@
       "Total": 35
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 31,
+      "AfsnitNr": 31,
       "Filmtitel": "John Wick",
       "Fed skurk": 9,
       "Store muskler": 3,
@@ -306,7 +306,7 @@
       "Total": 29
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 32,
+      "AfsnitNr": 32,
       "Filmtitel": "Rapid Fire (Ildkamp)",
       "Fed skurk": 8,
       "Store muskler": 6,
@@ -316,7 +316,7 @@
       "Total": 30
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 33,
+      "AfsnitNr": 33,
       "Filmtitel": "Desperado",
       "Fed skurk": 9,
       "Store muskler": 4,
@@ -326,7 +326,7 @@
       "Total": 39
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 34,
+      "AfsnitNr": 34,
       "Filmtitel": "The Fast and the Furious",
       "Fed skurk": 7,
       "Store muskler": 5,
@@ -336,11 +336,11 @@
       "Total": 24
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 35,
+      "AfsnitNr": 35,
       "Filmtitel": "Face/Off"
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 36,
+      "AfsnitNr": 36,
       "Filmtitel": "Universal Soldier",
       "Fed skurk": 8,
       "Store muskler": 10,
@@ -349,7 +349,7 @@
       "Total": 32
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 37,
+      "AfsnitNr": 37,
       "Filmtitel": "Lone Wolf McQuade",
       "Fed skurk": 6,
       "Store muskler": 4,
@@ -358,7 +358,7 @@
       "Total": 20
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 38,
+      "AfsnitNr": 38,
       "Filmtitel": "Enter the Dragon ",
       "Fed skurk": 9,
       "Store muskler": 8,
@@ -368,7 +368,7 @@
       "Total": 38
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 39,
+      "AfsnitNr": 39,
       "Filmtitel": "Starship Troopers",
       "Fed skurk": 9,
       "Store muskler": 5,
@@ -378,7 +378,7 @@
       "Total": 37
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 40,
+      "AfsnitNr": 40,
       "Filmtitel": "Mortal Kombat",
       "Fed skurk": 8,
       "Store muskler": 9,
@@ -388,7 +388,7 @@
       "Total": 33
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 41,
+      "AfsnitNr": 41,
       "Filmtitel": "The Rock",
       "Fed skurk": 10,
       "Store muskler": 2,
@@ -398,7 +398,7 @@
       "Total": 32
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 42,
+      "AfsnitNr": 42,
       "Filmtitel": "Total Recall",
       "Fed skurk": 8,
       "Store muskler": 8,
@@ -408,7 +408,7 @@
       "Total": 43
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 43,
+      "AfsnitNr": 43,
       "Filmtitel": "Rambo III",
       "Fed skurk": 6,
       "Store muskler": 10,
@@ -418,7 +418,7 @@
       "Total": 32
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 44,
+      "AfsnitNr": 44,
       "Filmtitel": "Kickboxer",
       "Fed skurk": 6,
       "Store muskler": 10,
@@ -428,7 +428,7 @@
       "Total": 27
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 45,
+      "AfsnitNr": 45,
       "Filmtitel": "Lethal Weapons",
       "Fed skurk": 10,
       "Store muskler": 7,
@@ -439,7 +439,7 @@
       "Total": 55
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 46,
+      "AfsnitNr": 46,
       "Filmtitel": "Atomic Blonde",
       "Fed skurk": 5,
       "Store muskler": 1,
@@ -449,7 +449,7 @@
       "Total": 16
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 47,
+      "AfsnitNr": 47,
       "Filmtitel": "Passenger 57",
       "Fed skurk": 8,
       "Store muskler": 3,
@@ -459,7 +459,7 @@
       "Total": 24
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 48,
+      "AfsnitNr": 48,
       "Filmtitel": "Eraser",
       "Fed skurk": 7,
       "Store muskler": 4,
@@ -468,7 +468,7 @@
       "Total": 28
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 49,
+      "AfsnitNr": 49,
       "Filmtitel": "Cliffhanger",
       "Fed skurk": 8,
       "Store muskler": 10,
@@ -477,7 +477,7 @@
       "Total": 29
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 50,
+      "AfsnitNr": 50,
       "Filmtitel": "Aliens",
       "Fed skurk": 10,
       "Store muskler": 4,
@@ -487,7 +487,7 @@
       "Total": 37
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 51,
+      "AfsnitNr": 51,
       "Filmtitel": "Pacific Rim",
       "Fed skurk": 7,
       "Store muskler": 4,
@@ -497,7 +497,7 @@
       "Total": 25
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 52,
+      "AfsnitNr": 52,
       "Filmtitel": "Death Warrant",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 7,
@@ -507,7 +507,7 @@
       "Total": 26
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 53,
+      "AfsnitNr": 53,
       "Filmtitel": "Speed",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 3,
@@ -517,11 +517,11 @@
       "Total": 27
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 54,
+      "AfsnitNr": 54,
       "Filmtitel": "Point Break"
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 55,
+      "AfsnitNr": 55,
       "Filmtitel": "Conan the Barbarian",
       "Fed skurk": 8,
       "Bar hud/Store muskler": 10,
@@ -531,7 +531,7 @@
       "Total": 38
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 56,
+      "AfsnitNr": 56,
       "Filmtitel": "The Expendables",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 8,
@@ -541,7 +541,7 @@
       "Total": 38
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 57,
+      "AfsnitNr": 57,
       "Filmtitel": "Broken Arrow",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 1,
@@ -551,7 +551,7 @@
       "Total": 37
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 58,
+      "AfsnitNr": 58,
       "Filmtitel": "Double Team",
       "Fed skurk": 4,
       "Bar hud/Store muskler": 7,
@@ -561,7 +561,7 @@
       "Total": 29
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 59,
+      "AfsnitNr": 59,
       "Filmtitel": "Bad Boys",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 8,
@@ -571,7 +571,7 @@
       "Total": 38
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 60,
+      "AfsnitNr": 60,
       "Filmtitel": "Taken",
       "Fed skurk": 4,
       "Bar hud/Store muskler": 1,
@@ -581,7 +581,7 @@
       "Total": 22
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 61,
+      "AfsnitNr": 61,
       "Filmtitel": "The Running Man",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 9,
@@ -591,7 +591,7 @@
       "Total": 44
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 62,
+      "AfsnitNr": 62,
       "Filmtitel": "Waterworld",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 2,
@@ -601,7 +601,7 @@
       "Total": 27
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 63,
+      "AfsnitNr": 63,
       "Filmtitel": "Rambo: First Blood Part II",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 10,
@@ -611,7 +611,7 @@
       "Total": 43
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 64,
+      "AfsnitNr": 64,
       "Filmtitel": "The Rundown",
       "Fed skurk": 3,
       "Bar hud/Store muskler": 9,
@@ -621,7 +621,7 @@
       "Total": 29
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 65,
+      "AfsnitNr": 65,
       "Filmtitel": "Nowhere to Run",
       "Fed skurk": 2,
       "Bar hud/Store muskler": 9,
@@ -631,7 +631,7 @@
       "Total": 22
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 66,
+      "AfsnitNr": 66,
       "Filmtitel": "The Punisher (1989)",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 6,
@@ -641,7 +641,7 @@
       "Total": 35
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 67,
+      "AfsnitNr": 67,
       "Filmtitel": "Rush Hour",
       "Fed skurk": 5,
       "Vilde våben": 7,
@@ -650,7 +650,7 @@
       "Total": 27
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 68,
+      "AfsnitNr": 68,
       "Filmtitel": "End of Days",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 6,
@@ -660,7 +660,7 @@
       "Total": 26
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 69,
+      "AfsnitNr": 69,
       "Filmtitel": "RoboCop",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 3,
@@ -670,7 +670,7 @@
       "Total": 40
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 70,
+      "AfsnitNr": 70,
       "Filmtitel": "Under Siege 2: Dark Territory",
       "Fed skurk": 5,
       "Bar hud/Store muskler": 4,
@@ -680,7 +680,7 @@
       "Total": 23
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 71,
+      "AfsnitNr": 71,
       "Filmtitel": "Training Day",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 6,
@@ -690,7 +690,7 @@
       "Total": 36
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 72,
+      "AfsnitNr": 72,
       "Filmtitel": "Hard Target",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 6,
@@ -700,7 +700,7 @@
       "Total": 41
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 73,
+      "AfsnitNr": 73,
       "Filmtitel": "Top Gun",
       "Fed skurk": 1,
       "Bar hud/Store muskler": 8,
@@ -710,7 +710,7 @@
       "Total": 32
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 74,
+      "AfsnitNr": 74,
       "Filmtitel": "The Fifth Element",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 8,
@@ -720,7 +720,7 @@
       "Total": 30
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 75,
+      "AfsnitNr": 75,
       "Filmtitel": "The Expendables 2",
       "Fed skurk": 8,
       "Bar hud/Store muskler": 6,
@@ -730,7 +730,7 @@
       "Total": 40
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 76,
+      "AfsnitNr": 76,
       "Filmtitel": "Street Fighter",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 8,
@@ -740,7 +740,7 @@
       "Total": 32
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 77,
+      "AfsnitNr": 77,
       "Filmtitel": "Kill Bill: Vol. 1",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 4,
@@ -750,7 +750,7 @@
       "Total": 43
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 78,
+      "AfsnitNr": 78,
       "Filmtitel": "Kill Bill: Vol. 2",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 3,
@@ -760,7 +760,7 @@
       "Total": 39
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 79,
+      "AfsnitNr": 79,
       "Filmtitel": "Escape Plan",
       "Fed skurk": 3,
       "Bar hud/Store muskler": 2,
@@ -770,7 +770,7 @@
       "Total": 17
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 80,
+      "AfsnitNr": 80,
       "Filmtitel": "The Three Musketeers",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 7,
@@ -780,7 +780,7 @@
       "Total": 40
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 81,
+      "AfsnitNr": 81,
       "Filmtitel": "Collateral",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 1,
@@ -790,7 +790,7 @@
       "Total": 36
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 82,
+      "AfsnitNr": 82,
       "Filmtitel": "Robin Hood: Prince of Thieves",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 3,
@@ -800,7 +800,7 @@
       "Total": 39
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 83,
+      "AfsnitNr": 83,
       "Filmtitel": "Freddy vs. Jason",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 7,
@@ -810,7 +810,7 @@
       "Total": 30
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 84,
+      "AfsnitNr": 84,
       "Filmtitel": "Shanghai Noon",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 6,
@@ -820,7 +820,7 @@
       "Total": 37
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 85,
+      "AfsnitNr": 85,
       "Filmtitel": "Man on Fire",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 2,
@@ -830,7 +830,7 @@
       "Total": 24
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 86,
+      "AfsnitNr": 86,
       "Filmtitel": "Blade II",
       "Fed skurk": 9,
       "Bar hud/Store muskler": 6,
@@ -840,7 +840,7 @@
       "Total": 36
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 87,
+      "AfsnitNr": 87,
       "Filmtitel": "The Long Kiss Goodnight",
       "Fed skurk": 8,
       "Bar hud/Store muskler": 3,
@@ -851,7 +851,7 @@
       "Total": 38
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 88,
+      "AfsnitNr": 88,
       "Filmtitel": "Maximum Risk",
       "Fed skurk": 3,
       "Bar hud/Store muskler": 9,
@@ -861,7 +861,7 @@
       "Total": 23
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 89,
+      "AfsnitNr": 89,
       "Filmtitel": "The Terminator",
       "Fed skurk": 10,
       "Bar hud/Store muskler": 9,
@@ -871,7 +871,7 @@
       "Total": 48
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 90,
+      "AfsnitNr": 90,
       "Filmtitel": "The Mask of Zorro",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 7,
@@ -881,7 +881,7 @@
       "Total": 36
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 91,
+      "AfsnitNr": 91,
       "Filmtitel": "The Bourne Identity",
       "Fed skurk": 7,
       "Bar hud/Store muskler": 2,
@@ -891,7 +891,7 @@
       "Total": 28
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 92,
+      "AfsnitNr": 92,
       "Filmtitel": "Lara Croft: Tomb Raider",
       "Fed skurk": 6,
       "Bar hud/Store muskler": 8,
@@ -901,12 +901,12 @@
       "Total": 29
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 93
+      "AfsnitNr": 93
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 94
+      "AfsnitNr": 94
     },
     {
-      "Hakkelademands leksikon Afsnit nr.": 95
+      "AfsnitNr": 95
     }
   ]
