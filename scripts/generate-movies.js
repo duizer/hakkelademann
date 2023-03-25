@@ -8,6 +8,7 @@ movies
     .filter(e => !!e.Filmtitel)
     .forEach(element => {
         let filename = element.Filmtitel;
+        filename = filename.trim();
         filename = filename.replaceAll("III", "3");
         filename = filename.replaceAll("II", "2");
         filename = filename.replaceAll(":", "");
