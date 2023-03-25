@@ -39,8 +39,7 @@
 		1313
 	],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "hugo serve --poll 250ms",
+	"postStartCommand": "hugo serve --poll 250ms",
 
 	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "root"
