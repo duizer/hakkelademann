@@ -22,7 +22,7 @@ movies
         filename = filename.toLowerCase();
         console.log(filename);
         
-        let content = `---\ntitle: "${element.Filmtitel}"\ndate: 2023-03-21T21:19:17Z\ndraft: false\nepisode: ${element.AfsnitNr}\nrating.total: ${element.Total}\n---\n\n`;
+        let content = `---\ntitle: "${element.Filmtitel}"\ndate: 2023-03-21T21:19:17Z\ndraft: false\nepisode: ${element.AfsnitNr}\nrating.vildeVåben: ${element.VildeVåben}\nrating.stærkeOneliners: ${element.StærkeOneliners}\nrating.fedSkurk: ${element.FedSkurk}\nrating.episkAction: ${element.EpiskAction}\nrating.barHudOgStoreMuskler: ${element.BarHudOgStoreMuskler}\nrating.total: ${element.Total}\n---\n\n`;
         
         fs.writeFileSync(`content/movies/${filename}.md`, content);
     });
