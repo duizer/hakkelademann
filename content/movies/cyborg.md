@@ -8,6 +8,6 @@ rating.stærkeOneliners: 2
 rating.fedSkurk: 4
 rating.episkAction: 6
 rating.barHudOgStoreMuskler: 6
-rating.total: 47
+rating.total: 24
 ---
 
