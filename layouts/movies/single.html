@@ -41,6 +41,17 @@
     {{ end }}
 
     <div class="post-meta">
+        {{ with .Params.imdbId }}
+        {{ $info := index $.Site.Data . }}
+        <ul>
+            <li>Director: {{ $info.director }}</li>
+            <li>Year: {{ $info.year }}</li>
+            <li>Runtime: {{ $info.runtime}} min</li>
+        </ul>
+        {{ end }}
+    </div>
+
+    <div class="post-meta">
         <ul>
             <li>Episode nr.: {{ .Param "episode" }}</li>
             <li>Vilde våben: {{ .Param "rating.vildeVåben" }}</li>
