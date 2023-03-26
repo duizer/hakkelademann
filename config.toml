@@ -1,4 +1,14 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Hakkelademann'
-theme = 'ananke'
+theme = 'terminal'
+
+[params]
+    contentTypeName = "movies"
+    themeColor = "green"
+    fullWidthTheme = true
+
+[languages]
+    [languages.en.params.logo]
+      logoText = "Hakkelademann"
+      logoHomeLink = "/"
