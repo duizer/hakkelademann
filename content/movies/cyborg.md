@@ -3,6 +3,7 @@
   "title": "Cyborg",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0097138",
   "episode": 4,
   "rating": {
     "vildeVåben": 6,

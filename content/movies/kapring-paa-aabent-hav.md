@@ -3,6 +3,7 @@
   "title": "Kapring på åbent hav",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0105690",
   "episode": 5,
   "rating": {
     "vildeVåben": 5,

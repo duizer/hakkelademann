@@ -3,6 +3,7 @@
   "title": "Cobra",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0090859",
   "episode": 9,
   "rating": {
     "vildeVåben": 9,
