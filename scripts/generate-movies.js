@@ -23,7 +23,23 @@ movies
         filename = filename.toLowerCase();
         console.log(filename);
         
-        let content = `---\ntitle: "${element.Filmtitel}"\ndate: 2023-03-21T21:19:17Z\ndraft: false\nepisode: ${element.AfsnitNr}\nrating.vildeVåben: ${element.VildeVåben}\nrating.stærkeOneliners: ${element.StærkeOneliners}\nrating.fedSkurk: ${element.FedSkurk}\nrating.episkAction: ${element.EpiskAction}\nrating.barHudOgStoreMuskler: ${element.BarHudOgStoreMuskler}\nrating.total: ${element.Total}\n---\n\n`;
-        
+        let v = {
+            title: element.Filmtitel,
+            date: "2023-03-21T21:19:17Z",
+            draft: false,
+            imdbId: element.imdbId,
+            episode: element.AfsnitNr,
+            rating: {
+                vildeVåben: element.VildeVåben,
+                stærkeOneliners: element.StærkeOneliners,
+                fedSkurk: element.FedSkurk,
+                episkAction: element.EpiskAction,
+                barHudOgStoreMuskler: element.BarHudOgStoreMuskler,
+                total: element.Total
+            }
+        };
+
+        let content = `---\n${JSON.stringify(v, null, "  ")}\n---\n\n`;
+
         fs.writeFileSync(`content/movies/${filename}.md`, content);
     });

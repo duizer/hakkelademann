@@ -1,13 +1,17 @@
 ---
-title: "Con Air"
-date: 2023-03-21T21:19:17Z
-draft: false
-episode: 12
-rating.vildeVåben: 4
-rating.stærkeOneliners: 9
-rating.fedSkurk: 10
-rating.episkAction: 8
-rating.barHudOgStoreMuskler: 7
-rating.total: 38
+{
+  "title": "Con Air",
+  "date": "2023-03-21T21:19:17Z",
+  "draft": false,
+  "episode": 12,
+  "rating": {
+    "vildeVåben": 4,
+    "stærkeOneliners": 9,
+    "fedSkurk": 10,
+    "episkAction": 8,
+    "barHudOgStoreMuskler": 7,
+    "total": 38
+  }
+}
 ---
 
