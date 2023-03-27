@@ -43,10 +43,11 @@
     <div class="post-meta">
         {{ with .Params.imdbId }}
         {{ $info := index $.Site.Data . }}
+        <h4>{{ $info.tagline }}</h4>
         <ul>
-            <li>Instruktør: {{ $info.director }}</li>
-            <li>Udgivelsesår: {{ $info.year }}</li>
-            <li>Længde: {{ $info.runtime}} min</li>
+            <li>Udgivet: {{ $info.release_date }}</li>
+            <li>Længde: {{ $info.runtime }} min</li>
+            <li>Budget: {{ $info.budget | lang.FormatCurrency 1 "USD" }}</li>
         </ul>
         {{ end }}
     </div>
