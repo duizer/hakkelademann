@@ -1,0 +1,15 @@
+    <footer class="footer">
+        <div class="copyright">
+            <span>© {{ now.Year }} <a href="https://github.com/duizer/hakkelademann" target="_blank">Paul Duizer</a></span>
+            <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> lavet af <a href="https://github.com/panr" target="_blank">panr</a></span>
+            <span>:: Film data leveres af <a href="https://www.themoviedb.org/" target="_blank">The Movie Database</a></span>
+        </div>
+    </footer>
+  
+  {{ $menu := resources.Get "js/menu.js" | js.Build }}
+  {{ $prism := resources.Get "js/prism.js" | js.Build }}
+  
+  {{ $bundle := slice $menu $prism | resources.Concat "bundle.js" | resources.Minify }}
+  
+  <script type="text/javascript" src="{{ $bundle.RelPermalink }}"></script>
+  
