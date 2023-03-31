@@ -14,4 +14,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
+      - run: cd scripts && npm install && cd ..
       - run: node scripts/fetch-movie-data.js
