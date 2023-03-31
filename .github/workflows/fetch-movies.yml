@@ -16,3 +16,5 @@ jobs:
           node-version: 18.x
       - run: cd scripts && npm install && cd ..
       - run: node scripts/fetch-movie-data.js
+        env:
+          MOVIEDB_APIKEY: ${{ secrets.MOVIEDB_APIKEY }}
