@@ -3,6 +3,7 @@
   "title": "Nico / Above the Law",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0094602",
   "episode": 21,
   "rating": {
     "vildeVåben": 4,
