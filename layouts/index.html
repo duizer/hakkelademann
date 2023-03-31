@@ -1,4 +1,67 @@
 {{ define "main" }}
+  <script>
+  function switchByNumber(x, y, dir) {
+    var valX = parseInt(x.innerHTML);
+    if (isNaN(valX)) {
+      valX = -1;
+    }
+    var valY = parseInt(y.innerHTML);
+    if (isNaN(valY)) { 
+      valY = -1;
+    }
+    if (dir == "asc") {
+      return valX > valY;
+    } else {
+      return valX < valY;
+    }
+  }
+
+  function switchByText(x, y, dir) {
+    if (dir == "asc") {
+      return x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase();
+    } else {
+      return x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase();
+    }
+  }
+
+  function sortTable(n, type) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    var switchFunc = type == "text" ? switchByText : switchByNumber;
+
+    table = document.getElementById("movies-table");
+    switching = true;
+    dir = "asc";
+    
+    while (switching) {
+      switching = false;
+      rows = table.rows;
+      
+      for (i = 1; i < (rows.length - 1); i++) {
+        shouldSwitch = false;
+        
+        x = rows[i].getElementsByTagName("TD")[n];
+        y = rows[i + 1].getElementsByTagName("TD")[n];
+        
+        if (switchFunc(x, y, dir)) {
+          shouldSwitch = true;
+          break;
+        }
+      }
+      if (shouldSwitch) {
+        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+        switching = true;
+        // Each time a switch is done, increase this count by 1:
+        switchcount ++;
+      } else {
+        if (switchcount == 0 && dir == "asc") {
+          dir = "desc";
+          switching = true;
+        }
+      }
+    }
+  }
+  </script>
+
   {{ if .Content }}
     <div class="index-content {{ if .Params.framed -}}framed{{- end -}}">
       {{ .Content }}
@@ -14,16 +77,16 @@
     {{ end }}
     {{ $paginator := .Paginate (where $PageContext.RegularPages "Type" $contentTypeName) }}
 
-    <table>
-      <tr>
-        <th>&num;</th>
-        <th>Titel</th>
-        <th>Stærke oneliners</th>
-        <th>Vilde våben</th>
-        <th>Fed skurk</th>
-        <th>Bar hud og store muskler</th>
-        <th>Episk action</th>
-        <th>Samlet</th>
+    <table id="movies-table">
+      <tr style="cursor: pointer;">
+        <th onclick="sortTable(0)">&num;</th>
+        <th onclick="sortTable(1, 'text')">Titel</th>
+        <th onclick="sortTable(2)">Stærke oneliners</th>
+        <th onclick="sortTable(3)">Vilde våben</th>
+        <th onclick="sortTable(4)">Fed skurk</th>
+        <th onclick="sortTable(5)">Bar hud og store muskler</th>
+        <th onclick="sortTable(6)">Episk action</th>
+        <th onclick="sortTable(7)">Samlet</th>
       </tr>
       {{ range (where .Site.RegularPages "Section" "movies").ByParam "episode" }}
       <tr>
