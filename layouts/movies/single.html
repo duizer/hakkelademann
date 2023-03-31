@@ -47,7 +47,12 @@
         <ul>
             <li>Udgivet: {{ $info.release_date }}</li>
             <li>Længde: {{ $info.runtime }} min</li>
+            {{ if gt $info.budget 0}} 
             <li>Budget: {{ $info.budget | lang.FormatCurrency 1 "USD" }}</li>
+            {{ end }}
+            {{ if gt $info.revenue 0 }}
+            <li>Indtjent: {{ $info.revenue | lang.FormatCurrency 1 "USD" }}</li>
+            {{ end }}
         </ul>
         <img src="https://image.tmdb.org/t/p/w500{{ $info.poster_path }}" />
         {{ end }}
