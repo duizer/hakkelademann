@@ -3,6 +3,7 @@
   "title": "Blade",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0120611",
   "episode": 25,
   "rating": {
     "vildeVåben": 10,
