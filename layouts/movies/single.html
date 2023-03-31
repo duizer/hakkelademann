@@ -49,6 +49,7 @@
             <li>Længde: {{ $info.runtime }} min</li>
             <li>Budget: {{ $info.budget | lang.FormatCurrency 1 "USD" }}</li>
         </ul>
+        <img src="https://image.tmdb.org/t/p/w500{{ $info.poster_path }}" />
         {{ end }}
     </div>
 
