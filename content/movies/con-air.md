@@ -3,6 +3,7 @@
   "title": "Con Air",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0118880",
   "episode": 12,
   "rating": {
     "vildeVåben": 4,

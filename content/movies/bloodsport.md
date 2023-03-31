@@ -3,6 +3,7 @@
   "title": "Bloodsport",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0092675",
   "episode": 17,
   "rating": {
     "vildeVåben": 2,
