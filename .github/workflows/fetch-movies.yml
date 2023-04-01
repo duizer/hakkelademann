@@ -1,8 +1,9 @@
 name: Fetch movies
 
 on:
-  pull_request:
-    branches: [main]
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -11,7 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
           token: ${{ secrets.GIT_ACCESS_TOKEN }}
       - name: Use Node.js 18
         uses: actions/setup-node@v3
@@ -26,6 +26,6 @@ jobs:
       - name: Push changes
         run: |
           git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.email github-actions[bot]@users.noreply.github.com
           git add .
           git diff --staged --quiet || (git commit -m "Auto update movie data" && git push)
