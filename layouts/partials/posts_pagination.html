@@ -1,0 +1,39 @@
+{{ $pages := ($.Site.GetPage "movies" .Section).Pages.ByParam "episode" }}
+
+{{ $.Scratch.Set "curPosition" 0 }}
+{{ $.Scratch.Set "index" 0 }}
+{{ range $pages }}
+  {{ if eq $ . }}
+    {{ $.Scratch.Set "curPosition" ($.Scratch.Get "index") }}
+  {{ end }}
+  {{ $.Scratch.Add "index" 1 }}
+{{ end }}
+
+{{ $next := (index $pages (add ($.Scratch.Get "curPosition") 1)) }}
+{{ $prev := (index $pages (sub ($.Scratch.Get "curPosition") 1)) }}
+
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">{{ $.Site.Params.ReadOtherPosts }}</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        {{ with $prev }}
+        <span class="button previous">
+            <a href="{{ $prev.Permalink }}">
+                <span class="button__icon">←</span>
+                <span class="button__text">{{ $prev.Title }}</span>
+            </a>
+        </span>
+        {{ end}}
+
+        {{ with $next }}
+        <span class="button next">
+            <a href="{{ $next.Permalink }}">
+                <span class="button__text">{{ $next.Title }}</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        {{ end }}
+    </div>
+</div>
