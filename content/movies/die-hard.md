@@ -9,7 +9,15 @@
     "vildeVåben": 10,
     "stærkeOneliners": 10,
     "fedSkurk": 10,
-    "total": 41
+    "total": 41,
+    "gammelSkala": {
+      "barHud": 5,
+      "storeMuskler": 6
+    },
+    "bonus": {
+      "score": 6,
+      "kategori": "Julestemning"
+    }
   }
 }
 ---

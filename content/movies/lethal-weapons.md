@@ -8,7 +8,15 @@
     "vildeVåben": 4,
     "stærkeOneliners": 10,
     "fedSkurk": 10,
-    "total": 55
+    "total": 55,
+    "gammelSkala": {
+      "barHud": 5,
+      "storeMuskler": 7
+    },
+    "bonus": {
+      "score": 19,
+      "kategori": "Julestemning og lækkert hår"
+    }
   }
 }
 ---

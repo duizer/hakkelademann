@@ -11,7 +11,11 @@
     "fedSkurk": 4,
     "episkAction": 4,
     "barHudOgStoreMuskler": 1,
-    "total": 18
+    "total": 18,
+    "bonus": {
+      "score": 8,
+      "kategori": "Julestemning"
+    }
   }
 }
 ---

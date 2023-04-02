@@ -172,7 +172,10 @@
       "VildeVåben": 4,
       "StærkeOneliners": 5,
       "EpiskAction": 4,
-      "Bonus kategorier": "8 (julestemning)",
+      "Bonus": {
+        "Score": 8,
+        "Kategori": "Julestemning"
+      },
       "Total": 18,
       "imdbId": "tt0116705"
     },
@@ -213,7 +216,7 @@
       "AfsnitNr": 20,
       "Filmtitel": "Rocky IV",
       "FedSkurk": 8,
-      "Store muskler": 10,
+      "StoreMuskler": 10,
       "VildeVåben": 3,
       "StærkeOneliners": 4,
       "Total": 25,
@@ -241,8 +244,8 @@
       "AfsnitNr": 23,
       "Filmtitel": "Action Jackson",
       "FedSkurk": 4,
-      "Store muskler": 6,
-      "Bar hud": 6,
+      "StoreMuskler": 6,
+      "BarHud": 6,
       "VildeVåben": 5,
       "StærkeOneliners": 7,
       "Total": 28,
@@ -252,8 +255,8 @@
       "AfsnitNr": 24,
       "Filmtitel": "Red Heat",
       "FedSkurk": 5,
-      "Store muskler": 7,
-      "Bar hud": 6,
+      "StoreMuskler": 7,
+      "BarHud": 6,
       "VildeVåben": 5,
       "StærkeOneliners": 4,
       "Total": 27,
@@ -263,8 +266,8 @@
       "AfsnitNr": 25,
       "Filmtitel": "Blade",
       "FedSkurk": 8,
-      "Store muskler": 6,
-      "Bar hud": 1,
+      "StoreMuskler": 6,
+      "BarHud": 1,
       "VildeVåben": 10,
       "StærkeOneliners": 9,
       "Total": 34,
@@ -274,22 +277,25 @@
       "AfsnitNr": 26,
       "Filmtitel": "Timecop",
       "FedSkurk": 3,
-      "Store muskler": 7,
-      "Bar hud": 7,
+      "StoreMuskler": 7,
+      "BarHud": 7,
       "VildeVåben": 7,
       "StærkeOneliners": 5,
-      "Total": 45,
+      "Total": 29,
       "imdbId": "tt0111438"
     },
     {
       "AfsnitNr": 27,
       "Filmtitel": "Die Hard",
       "FedSkurk": 10,
-      "Store muskler": 6,
-      "Bar hud": 5,
+      "StoreMuskler": 6,
+      "BarHud": 5,
       "VildeVåben": 10,
       "StærkeOneliners": 10,
-      "Bonus kategorier": "6 (julestemning)",
+      "Bonus": {
+        "Score": 6,
+        "Kategori": "Julestemning"
+      },
       "Total": 41,
       "imdbId": "tt0095016"
     },
@@ -297,8 +303,8 @@
       "AfsnitNr": 28,
       "Filmtitel": "Tango and Cash",
       "FedSkurk": 4,
-      "Store muskler": 8,
-      "Bar hud": 4,
+      "StoreMuskler": 8,
+      "BarHud": 4,
       "VildeVåben": 8,
       "StærkeOneliners": 8,
       "Total": 32,
@@ -308,7 +314,7 @@
       "AfsnitNr": 29,
       "Filmtitel": "Top Dog",
       "FedSkurk": 1,
-      "Store muskler": 1,
+      "StoreMuskler": 1,
       "VildeVåben": 4,
       "StærkeOneliners": 2,
       "Total": 8
@@ -317,8 +323,8 @@
       "AfsnitNr": 30,
       "Filmtitel": "The Matrix",
       "FedSkurk": 10,
-      "Store muskler": 3,
-      "Bar hud": 2,
+      "StoreMuskler": 3,
+      "BarHud": 2,
       "VildeVåben": 10,
       "StærkeOneliners": 10,
       "Total": 35
@@ -327,8 +333,8 @@
       "AfsnitNr": 31,
       "Filmtitel": "John Wick",
       "FedSkurk": 9,
-      "Store muskler": 3,
-      "Bar hud": 1,
+      "StoreMuskler": 3,
+      "BarHud": 1,
       "VildeVåben": 9,
       "StærkeOneliners": 7,
       "Total": 29
@@ -337,8 +343,8 @@
       "AfsnitNr": 32,
       "Filmtitel": "Rapid Fire (Ildkamp)",
       "FedSkurk": 8,
-      "Store muskler": 6,
-      "Bar hud": 4,
+      "StoreMuskler": 6,
+      "BarHud": 4,
       "VildeVåben": 7,
       "StærkeOneliners": 5,
       "Total": 30
@@ -347,8 +353,8 @@
       "AfsnitNr": 33,
       "Filmtitel": "Desperado",
       "FedSkurk": 9,
-      "Store muskler": 4,
-      "Bar hud": 10,
+      "StoreMuskler": 4,
+      "BarHud": 10,
       "VildeVåben": 10,
       "StærkeOneliners": 6,
       "Total": 39
@@ -357,8 +363,8 @@
       "AfsnitNr": 34,
       "Filmtitel": "The Fast and the Furious",
       "FedSkurk": 7,
-      "Store muskler": 5,
-      "Bar hud": 3,
+      "StoreMuskler": 5,
+      "BarHud": 3,
       "VildeVåben": 3,
       "StærkeOneliners": 6,
       "Total": 24
@@ -371,7 +377,7 @@
       "AfsnitNr": 36,
       "Filmtitel": "Universal Soldier",
       "FedSkurk": 8,
-      "Store muskler": 10,
+      "StoreMuskler": 10,
       "VildeVåben": 8,
       "StærkeOneliners": 6,
       "Total": 32
@@ -380,7 +386,7 @@
       "AfsnitNr": 37,
       "Filmtitel": "Lone Wolf McQuade",
       "FedSkurk": 6,
-      "Store muskler": 4,
+      "StoreMuskler": 4,
       "VildeVåben": 7,
       "StærkeOneliners": 3,
       "Total": 20
@@ -389,8 +395,8 @@
       "AfsnitNr": 38,
       "Filmtitel": "Enter the Dragon",
       "FedSkurk": 9,
-      "Store muskler": 8,
-      "Bar hud": 5,
+      "StoreMuskler": 8,
+      "BarHud": 5,
       "VildeVåben": 6,
       "StærkeOneliners": 10,
       "Total": 38
@@ -399,8 +405,8 @@
       "AfsnitNr": 39,
       "Filmtitel": "Starship Troopers",
       "FedSkurk": 9,
-      "Store muskler": 5,
-      "Bar hud": 6,
+      "StoreMuskler": 5,
+      "BarHud": 6,
       "VildeVåben": 8,
       "StærkeOneliners": 9,
       "Total": 37
@@ -409,8 +415,8 @@
       "AfsnitNr": 40,
       "Filmtitel": "Mortal Kombat",
       "FedSkurk": 8,
-      "Store muskler": 9,
-      "Bar hud": 1,
+      "StoreMuskler": 9,
+      "BarHud": 1,
       "VildeVåben": 7,
       "StærkeOneliners": 8,
       "Total": 33
@@ -419,8 +425,8 @@
       "AfsnitNr": 41,
       "Filmtitel": "The Rock",
       "FedSkurk": 10,
-      "Store muskler": 2,
-      "Bar hud": 1,
+      "StoreMuskler": 2,
+      "BarHud": 1,
       "VildeVåben": 10,
       "StærkeOneliners": 9,
       "Total": 32
@@ -429,8 +435,8 @@
       "AfsnitNr": 42,
       "Filmtitel": "Total Recall",
       "FedSkurk": 8,
-      "Store muskler": 8,
-      "Bar hud": 8,
+      "StoreMuskler": 8,
+      "BarHud": 8,
       "VildeVåben": 9,
       "StærkeOneliners": 10,
       "Total": 43
@@ -439,18 +445,21 @@
       "AfsnitNr": 43,
       "Filmtitel": "Rambo III",
       "FedSkurk": 6,
-      "Store muskler": 10,
+      "StoreMuskler": 10,
       "VildeVåben": 9,
       "StærkeOneliners": 7,
-      "Bonus kategorier": "9 (lækkert hår)",
+      "Bonus": {
+        "Score": 9,
+        "Kategori": "Lækkert hår"
+      },
       "Total": 32
     },
     {
       "AfsnitNr": 44,
       "Filmtitel": "Kickboxer",
       "FedSkurk": 6,
-      "Store muskler": 10,
-      "Bar hud": 5,
+      "StoreMuskler": 10,
+      "BarHud": 5,
       "VildeVåben": 5,
       "StærkeOneliners": 1,
       "Total": 27
@@ -459,19 +468,22 @@
       "AfsnitNr": 45,
       "Filmtitel": "Lethal Weapons",
       "FedSkurk": 10,
-      "Store muskler": 7,
-      "Bar hud": 5,
+      "StoreMuskler": 7,
+      "BarHud": 5,
       "VildeVåben": 4,
       "StærkeOneliners": 10,
-      "Bonus kategorier": "10 (jul) / 9 (hår)",
+      "Bonus": {
+        "Score": 19,
+        "Kategori": "Julestemning og lækkert hår" 
+      },
       "Total": 55
     },
     {
       "AfsnitNr": 46,
       "Filmtitel": "Atomic Blonde",
       "FedSkurk": 5,
-      "Store muskler": 1,
-      "Bar hud": 5,
+      "StoreMuskler": 1,
+      "BarHud": 5,
       "VildeVåben": 3,
       "StærkeOneliners": 2,
       "Total": 16
@@ -480,17 +492,20 @@
       "AfsnitNr": 47,
       "Filmtitel": "Passenger 57",
       "FedSkurk": 8,
-      "Store muskler": 3,
+      "StoreMuskler": 3,
       "VildeVåben": 3,
       "StærkeOneliners": 10,
-      "Bonus kategorier": "6 (lækkert hår)",
+      "Bonus": {
+        "Score": 6,
+        "Kategori": "Lækkert hår"
+      },
       "Total": 24
     },
     {
       "AfsnitNr": 48,
       "Filmtitel": "Eraser",
       "FedSkurk": 7,
-      "Store muskler": 4,
+      "StoreMuskler": 4,
       "VildeVåben": 9,
       "StærkeOneliners": 8,
       "Total": 28
@@ -499,7 +514,7 @@
       "AfsnitNr": 49,
       "Filmtitel": "Cliffhanger",
       "FedSkurk": 8,
-      "Store muskler": 10,
+      "StoreMuskler": 10,
       "VildeVåben": 4,
       "StærkeOneliners": 7,
       "Total": 29
@@ -508,8 +523,8 @@
       "AfsnitNr": 50,
       "Filmtitel": "Aliens",
       "FedSkurk": 10,
-      "Store muskler": 4,
-      "Bar hud": 3,
+      "StoreMuskler": 4,
+      "BarHud": 3,
       "VildeVåben": 10,
       "StærkeOneliners": 10,
       "Total": 37
@@ -518,8 +533,8 @@
       "AfsnitNr": 51,
       "Filmtitel": "Pacific Rim",
       "FedSkurk": 7,
-      "Store muskler": 4,
-      "Bar hud": 1,
+      "StoreMuskler": 4,
+      "BarHud": 1,
       "VildeVåben": 10,
       "StærkeOneliners": 3,
       "Total": 25
@@ -748,7 +763,7 @@
       "VildeVåben": 10,
       "StærkeOneliners": 9,
       "EpiskAction": 5,
-      "Total": 30
+      "Total": 42
     },
     {
       "AfsnitNr": 75,
@@ -878,7 +893,10 @@
       "VildeVåben": 9,
       "StærkeOneliners": 10,
       "EpiskAction": 8,
-      "Bonus kategorier": "7 (julestemning)",
+      "Bonus": {
+        "Score": 7,
+        "Kategori": "Julestemning"
+      },
       "Total": 38
     },
     {

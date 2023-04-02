@@ -22,7 +22,7 @@ movies
         filename = filename.replaceAll("--", "-");
         filename = filename.toLowerCase();
         console.log(filename);
-        
+
         let v = {
             title: element.Filmtitel,
             date: "2023-03-21T21:19:17Z",
@@ -38,6 +38,21 @@ movies
                 total: element.Total
             }
         };
+
+        if (element.BarHud || element.StoreMuskler) {
+            v.rating.gammelSkala = {
+                barHud: element.BarHud,
+                storeMuskler: element.StoreMuskler
+            };
+        }
+
+        if (element.Bonus) {
+            v.rating.bonus =
+            {
+                score: element.Bonus.Score,
+                kategori: element.Bonus.Kategori
+            };
+        }
 
         let content = `---\n${JSON.stringify(v, null, "  ")}\n---\n\n`;
 

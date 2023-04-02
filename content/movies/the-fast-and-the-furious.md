@@ -8,7 +8,11 @@
     "vildeVåben": 3,
     "stærkeOneliners": 6,
     "fedSkurk": 7,
-    "total": 24
+    "total": 24,
+    "gammelSkala": {
+      "barHud": 3,
+      "storeMuskler": 5
+    }
   }
 }
 ---
