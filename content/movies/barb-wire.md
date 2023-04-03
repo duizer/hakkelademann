@@ -11,7 +11,7 @@
     "fedSkurk": 2,
     "episkAction": 3,
     "barHudOgStoreMuskler": 10,
-    "total": 41
+    "total": 23
   }
 }
 ---
