@@ -3,6 +3,7 @@
   "title": "Top Gun",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0092099",
   "episode": 73,
   "rating": {
     "vildeVåben": 7,

@@ -3,6 +3,7 @@
   "title": "The Running Man",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0093894",
   "episode": 61,
   "rating": {
     "vildeVåben": 8,

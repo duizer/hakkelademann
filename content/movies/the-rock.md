@@ -3,6 +3,7 @@
   "title": "The Rock",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0117500",
   "episode": 41,
   "rating": {
     "vildeVåben": 10,
