@@ -47,7 +47,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: Print Node version
-        run: node--version
+        run: node --version
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Verify movies info
