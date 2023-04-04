@@ -3,6 +3,7 @@
   "title": "The Mask of Zorro",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0120746",
   "episode": 90,
   "rating": {
     "vildeVåben": 5,

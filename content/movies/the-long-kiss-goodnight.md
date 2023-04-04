@@ -3,6 +3,7 @@
   "title": "The Long Kiss Goodnight",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0116908",
   "episode": 87,
   "rating": {
     "vildeVåben": 9,

@@ -3,6 +3,7 @@
   "title": "Taken",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0936501",
   "episode": 60,
   "rating": {
     "vildeVåben": 5,

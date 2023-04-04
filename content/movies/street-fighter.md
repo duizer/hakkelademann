@@ -3,6 +3,7 @@
   "title": "Street Fighter",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0111301",
   "episode": 76,
   "rating": {
     "vildeVåben": 5,

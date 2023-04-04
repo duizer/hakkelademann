@@ -3,6 +3,7 @@
   "title": "The Matrix",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0133093",
   "episode": 30,
   "rating": {
     "vildeVåben": 10,
