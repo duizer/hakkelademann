@@ -44,5 +44,5 @@ const scoreMismatch = allMovies.filter(f => {
 });
 test(scoreMismatch, "Rating check");
 
-// const re = new RegExp("tt[0-9]{7}");
-// test(allMovies.filter(f => !f.attributes.imdbId?.match(re)), "Imdb id property check");
+const re = new RegExp("tt[0-9]{7}");
+test(allMovies.filter(f => !f.attributes.imdbId?.match(re)), "Imdb id property check");
