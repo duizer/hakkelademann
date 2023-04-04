@@ -5,45 +5,44 @@ const fm = require('front-matter');
 const moviesPath = "content/movies";
 const moviesDir = fs.readdirSync(moviesPath);
 
-const test = (res, errorMessage) => {
+const test = (res, testName) => {
     if (res.length > 0) {
-        throw new Error(`${errorMessage}. Files: ${res.map(f => f.filePath)}`);
+        throw new Error(`${testName}. Files: ${res.map(f => f.filePath)}`);
+    } else {
+        console.log(`✅ ${testName}`);
     }
 }
 
-const allData = moviesDir
+const allMovies = moviesDir
     .map(file => {
         const filePath = path.join(moviesPath, file);
         const content = fs.readFileSync(filePath, 'utf8');
         return { attributes: fm(content).attributes, filePath };
     });
 
+test(allMovies.filter(f => isNaN(f.attributes.episode)), "Episode property check");
 
-test(allData.filter(f => isNaN(f.attributes.episode)), "Episode is missing");
-
-const episodes = allData.map(f => f.attributes.episode);
+const episodes = allMovies.map(f => f.attributes.episode);
 const duplicateEpisodes = episodes.filter((f, i) => episodes.indexOf(f) !== i);
-test(allData.filter(f => duplicateEpisodes.includes(f.attributes.episode)), "Has the same episode number");
+test(allMovies.filter(f => duplicateEpisodes.includes(f.attributes.episode)), "Unique episode number");
 
-const scoreMismatch = allData.filter(f => {
+const scoreMismatch = allMovies.filter(f => {
     const fixNaN = n => isNaN(n) ? 0 : n;
     const rating = f.attributes.rating;
+    const bonusScore = rating.bonus?.flatMap(x => x.score).reduce((partialSum, a) => partialSum + a, 0);
     const total =
         fixNaN(rating.vildeVåben) +
         fixNaN(rating.fedSkurk) +
         fixNaN(rating.stærkeOneliners) +
         fixNaN(rating.episkAction) +
-        fixNaN(rating.barHudOgStoreMuskler) + 
-        fixNaN(rating.gammelSkala?.barHud) + 
-        fixNaN(rating.gammelSkala?.storeMuskler) + 
-        fixNaN(rating.bonus?.score);
+        fixNaN(rating.barHudOgStoreMuskler) +
+        fixNaN(rating.gammelSkala?.barHud) +
+        fixNaN(rating.gammelSkala?.storeMuskler) +
+        fixNaN(bonusScore);
 
     return rating.total !== total;
 });
-test(scoreMismatch, "Total score does not match");
+test(scoreMismatch, "Rating check");
 
-console.log(scoreMismatch);
-
-// const episodes = allData.map(f => f.attributes.episode).sort((a, b) => a-b);
-
-// console.log(episodes);
+// const re = new RegExp("tt[0-9]{7}");
+// test(allMovies.filter(f => !f.attributes.imdbId?.match(re)), "Imdb id property check");

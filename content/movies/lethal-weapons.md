@@ -13,10 +13,16 @@
       "barHud": 5,
       "storeMuskler": 7
     },
-    "bonus": {
-      "score": 19,
-      "kategori": "Julestemning og lækkert hår"
-    }
+    "bonus": [
+      {
+        "score": 10,
+        "kategori": "Julestemning"
+      },
+      {
+        "score": 9,
+        "kategori": "Lækkert hår"
+      }
+    ]
   }
 }
 ---

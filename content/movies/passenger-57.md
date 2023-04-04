@@ -8,14 +8,16 @@
     "vildeVåben": 3,
     "stærkeOneliners": 10,
     "fedSkurk": 8,
-    "total": 24,
+    "total": 30,
     "gammelSkala": {
       "storeMuskler": 3
     },
-    "bonus": {
-      "score": 6,
-      "kategori": "Lækkert hår"
-    }
+    "bonus": [
+      {
+        "score": 6,
+        "kategori": "Lækkert hår"
+      }
+    ]
   }
 }
 ---
