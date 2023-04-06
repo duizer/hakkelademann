@@ -3,6 +3,7 @@
   "title": "Eraser",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0116213",
   "episode": 48,
   "rating": {
     "vildeVåben": 9,

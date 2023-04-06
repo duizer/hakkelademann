@@ -2,6 +2,7 @@
 {
   "title": "Lethal Weapons",
   "date": "2023-03-21T21:19:17Z",
+  "imdbId": "tt0093409",
   "draft": false,
   "episode": 45,
   "rating": {

@@ -3,6 +3,7 @@
   "title": "John Wick",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt2911666",
   "episode": 31,
   "rating": {
     "vildeVåben": 9,

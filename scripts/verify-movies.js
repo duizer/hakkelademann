@@ -7,6 +7,7 @@ const moviesDir = fs.readdirSync(moviesPath);
 
 const test = (res, testName) => {
     if (res.length > 0) {
+        console.log(`❌ ${testName}`);
         throw new Error(`${testName}. Files: ${res.map(f => f.filePath)}`);
     } else {
         console.log(`✅ ${testName}`);
@@ -44,5 +45,5 @@ const scoreMismatch = allMovies.filter(f => {
 });
 test(scoreMismatch, "Rating check");
 
-// const re = new RegExp("tt[0-9]{7}");
-// test(allMovies.filter(f => !f.attributes.imdbId?.match(re)), "Imdb id property check");
+const re = new RegExp("^tt[0-9]{7}$");
+test(allMovies.filter(f => !f.attributes.imdbId?.match(re)), "Imdb id property check");

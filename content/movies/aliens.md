@@ -3,6 +3,7 @@
   "title": "Aliens",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0090605",
   "episode": 50,
   "rating": {
     "vildeVåben": 10,

@@ -3,6 +3,7 @@
   "title": "Enter the Dragon",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0070034",
   "episode": 38,
   "rating": {
     "vildeVåben": 6,

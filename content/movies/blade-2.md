@@ -3,6 +3,7 @@
   "title": "Blade II",
   "date": "2023-03-21T21:19:17Z",
   "draft": false,
+  "imdbId": "tt0187738",
   "episode": 86,
   "rating": {
     "vildeVåben": 10,
