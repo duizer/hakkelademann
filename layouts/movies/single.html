@@ -38,6 +38,73 @@
     </div>
     {{ end }}
 
+    <div class="post-content">
+        <table style="table-layout: fixed; width: auto;">
+            <tr>
+                <th>Kategori</th>
+                <th>Score</th>
+            </tr>
+            {{ with .Params.rating.fedSkurk }}
+            <tr>
+                <td>Fed skurk</td>
+                <td align="right">{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ with .Params.rating.gammelSkala.barHud }}
+            <tr>
+                <td>Bar hud</td>
+                <td align="right">{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ with .Params.rating.gammelSkala.storeMuskler }}
+            <tr>
+                <td>Store muskler</td>
+                <td align="right">{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ with .Params.rating.barHudOgStoreMuskler }}
+            <tr>
+                <td>Bar hud og store muskler</td>
+                <td align="right">{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ with .Params.rating.vildeVåben }}
+            <tr>
+                <td>Vilde våben</td>
+                <td align="right">{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ with .Params.rating.stærkeOneliners }}
+            <tr>
+                <td>Stærke oneliners</td>
+                <td align="right">{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ with .Params.rating.episkAction }}
+            <tr>
+                <td>Episk action</td>
+                <td align="right">{{ . }}</td>
+            </tr>
+            {{ end }}
+            {{ range .Params.rating.bonus }}
+            <tr>
+                <td>Bonus kategori: {{ .kategori}}</td>
+                <td align="right">{{ .score }}</td>
+            </tr>
+            {{ end}}
+            <tr>
+                <td>Samlet</td>
+                <td align="right">{{ .Params.rating.total }}</td>
+            </tr>
+        </table>
+
+        {{- with .Content -}}
+        <div>
+            {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
+        </div>
+        {{- end -}}
+    </div>
+
     <div class="post-meta">
         {{ with .Params.imdbId }}
         {{ $info := index $.Site.Data . }}
@@ -54,28 +121,6 @@
         </ul>
         <img src="https://image.tmdb.org/t/p/w500{{ $info.poster_path }}" />
         {{ end }}
-    </div>
-
-    <div class="post-meta">
-        <ul>
-            <li>Episode nr.: {{ .Param "episode" }}</li>
-            <li>Vilde våben: {{ .Param "rating.vildeVåben" }}</li>
-            <li>Stærke oneliners: {{ .Param "rating.stærkeOneliners" }}</li>
-            <li>Fed skurk: {{ .Param "rating.fedSkurk" }}</li>
-            <li>Episk action: {{ .Param "rating.episkAction" }}</li>
-            <li>Bar hud og store muskler: {{ .Param "rating.barHudOgStoreMuskler" }}</li>
-            <li>Samlet score: {{ .Param "rating.total" }}</li>
-            <li>TODO: Gammel skala</li>
-            <li>TODO: Bonuskategorier</li>
-        </ul>
-    </div>
-
-    <div class="post-content">
-        {{- with .Content -}}
-        <div>
-            {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
-        </div>
-        {{- end -}}
     </div>
 
     {{ if eq .Type $.Site.Params.contentTypeName }}
