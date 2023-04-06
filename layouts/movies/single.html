@@ -38,6 +38,13 @@
     </div>
     {{ end }}
 
+    {{ with .Params.imdbId }}
+    {{ $info := index $.Site.Data . }}
+    <div class="post-meta">
+        <h4>{{ $info.tagline }}</h4>
+    </div>
+    {{ end }}
+
     <div class="post-content">
         <table style="table-layout: fixed; width: auto;">
             <tr>
@@ -105,10 +112,9 @@
         {{- end -}}
     </div>
 
+    {{ with .Params.imdbId }}
+    {{ $info := index $.Site.Data . }}
     <div class="post-meta">
-        {{ with .Params.imdbId }}
-        {{ $info := index $.Site.Data . }}
-        <h4>{{ $info.tagline }}</h4>
         <ul>
             <li>Udgivet: {{ $info.release_date }}</li>
             <li>Længde: {{ $info.runtime }} min</li>
@@ -119,9 +125,9 @@
             <li>Indtjent: {{ $info.revenue | lang.FormatCurrency 1 "USD" }}</li>
             {{ end }}
         </ul>
-        <img src="https://image.tmdb.org/t/p/w500{{ $info.poster_path }}" />
-        {{ end }}
+        <img src="https://image.tmdb.org/t/p/w300{{ $info.poster_path }}" />
     </div>
+    {{ end }}
 
     {{ if eq .Type $.Site.Params.contentTypeName }}
     {{ partial "posts_pagination.html" . }}
