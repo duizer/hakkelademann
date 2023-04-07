@@ -86,7 +86,8 @@
         <th onclick="sortTable(4)">Fed skurk</th>
         <th onclick="sortTable(5)">Bar hud og store muskler</th>
         <th onclick="sortTable(6)">Episk action</th>
-        <th onclick="sortTable(7)">Samlet</th>
+        <th onclick="sortTable(7)">Bonus</th>
+        <th onclick="sortTable(8)">Samlet</th>
       </tr>
       {{ range (where .Site.RegularPages "Section" "movies").ByParam "episode" }}
       <tr>
@@ -97,6 +98,15 @@
         <td>{{ .Params.rating.fedSkurk }}</td>
         <td>{{ .Params.rating.barHudOgStoreMuskler }}</td>
         <td>{{ .Params.rating.episkAction }}</td>
+        <td>
+          {{ $score := 0 }}
+          {{ range .Params.rating.bonus }}
+            {{ $score = add $score .score }}
+          {{ end }}
+          {{ if gt $score 0}}
+            {{ $score }}
+          {{ end }}
+        </td>
         <td>{{ .Params.rating.total }}</td>
       </tr>
       {{ end }}
