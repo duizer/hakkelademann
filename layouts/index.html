@@ -96,21 +96,29 @@
         <td>{{ .Params.rating.stærkeOneliners }}</td>
         <td>{{ .Params.rating.vildeVåben }}</td>
         <td>{{ .Params.rating.fedSkurk }}</td>
-        <td>{{ .Params.rating.barHudOgStoreMuskler }}</td>
+        <td>
+          {{ with .Params.rating.barHudOgStoreMuskler }}
+            {{ . }}
+          {{ else }}
+            {{ add (int .Params.rating.gammelSkala.barHud) (int .Params.rating.gammelSkala.storeMuskler) }}*
+          {{ end }}
+        </td>
         <td>{{ .Params.rating.episkAction }}</td>
         <td>
           {{ $score := 0 }}
           {{ range .Params.rating.bonus }}
             {{ $score = add $score .score }}
           {{ end }}
-          {{ if gt $score 0}}
-            {{ $score }}
+          {{ with $score}}
+            {{ . }}
           {{ end }}
         </td>
         <td>{{ .Params.rating.total }}</td>
       </tr>
       {{ end }}
     </table>
+
+    *) Summen af kategorierne "Bar hud" og "Store muskler" fra den gamle skala
 
   </div>
 {{ end }}
